@@ -1,0 +1,65 @@
+Problema 1: debería usarse 'and' ya que 'or' solo le basta con que sea uno verdadero para que sea True
+
+Problema 2: primero evalúa x < y lo cual como resultado da True luego evalúa y < x , como resultado imprime False
+
+Problema 3: al negar a y b ser False se imprime False
+y en el otro caso al ser a True y b False entonces es False y al negarlo seria True 
+
+Problema 4: La diferencia es que el "==" compara el contenido , mientras que "is" si son el mismo objeto en memoria
+
+Caso especial: Python reutiliza los números pequeños desde (-5 a 256) por eso 'a is b' es True pero para que sea false debe ser un numero muchísimo mas grande para que lo tome como objetos diferentes. Para que 'c' is 'd' sea false
+
+
+Problema 5: Python al validar que la primera función es Falsa no necesita ejecutar la segunda para saber que el resultado final retornara False por esto no ejecuta la función a.
+
+Problema 6: Sí, Python es sensible a las mayúsculas ya que al validar si "p" estaba en la Palabra retorna False ya que el carácter que contiene esta palabra es "P"
+
+
+problema 7: Python coge como False los contenedores que están vacíos y True los que poseen con que sea un elemento aunque sea un espacio o un None dentro del None.2
+
+problema 8:los paréntesis son importantes: clarifican el orden de evaluación y evitan errores lógicos.
+
+Problema 9: Sí, ambas formas son equivalentes, pero la comparación encadenada (3 <= len(username) <= 15) es más clara y más "pitónica" (siguiendo las buenas prácticas de Python).
+
+Problema 10: 
+1. ¿Puede acceder a contenido para adultos?
+usuario["autenticado"] → True
+
+usuario["edad"] >= 18 → 17 >= 18 → False
+
+True and False →  False
+
+Conclusión: No puede acceder porque no cumple la edad mínima, aunque esté autenticado.
+
+2. ¿Puede acceder a área administrativa?
+
+puede_acceder2 = usuario["autenticado"] and usuario["admin"]
+
+True and False →  False
+
+Conclusión: No puede acceder al área administrativa porque no es administrador.
+
+3. ¿Puede acceder a contenido premium?
+
+puede_acceder3 = usuario["autenticado"] and (usuario["suscripcion"] == "premium" or usuario["admin"])
+
+usuario["suscripcion"] == "premium" →  True
+
+usuario["admin"] → False
+
+(True or False) → True
+
+usuario["autenticado"] and True →  True
+
+Conclusión: Sí puede acceder al contenido premium porque tiene una suscripción premium.
+
+--Cambiando atributos
+
+usuario["admin"] = True
+
+{'autenticado': True, 'admin': True, 'edad': 17, 'suscripcion': 'premium'}
+
+usuario['autenticado'] and usuario['admin'] → True and True →  True
+
+Conclusión: Ahora puede acceder al área administrativa (porque es admin).
+

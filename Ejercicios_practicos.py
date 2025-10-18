@@ -195,4 +195,4 @@ print(f"Precio final: ${final}")
 
 ### Proyecto Final
 #- [O] Calculadora básica
-#- [O] Calculadora avanzada
+#- [X] Calculadora avanzada
