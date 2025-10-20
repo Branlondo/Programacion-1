@@ -214,11 +214,11 @@ if '@' not in email or '.' not in email.split('@')[1]:
 
 ## ✅ CHECKLIST ANTES DE COMENZAR
 
-- [ ] Leí todas las aclaraciones
-- [ ] Entiendo los formatos requeridos
-- [ ] Sé qué hacer con casos ambiguos
-- [ ] Tengo claro el sistema de multas
-- [ ] Entiendo qué es una "secuencia"
+- [ ✅ ] Leí todas las aclaraciones
+- [ ✅ ] Entiendo los formatos requeridos
+- [ ✅ ] Sé qué hacer con casos ambiguos
+- [ ✅ ] Tengo claro el sistema de multas
+- [ ✅ ] Entiendo qué es una "secuencia"
 
 ---
 

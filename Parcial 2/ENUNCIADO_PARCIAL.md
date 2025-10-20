@@ -1,3 +1,4 @@
+# Los ejercicios estan separados de manera individual para hacer mas facil la lectura de estos y su ejecucion cada uno con sus respectivas pruebas incluida la parte 2 de su integracion.
 # PARCIAL INTEGRADOR - PROGRAMACIÓN ORIENTADA A OBJETOS
 
 **Curso:** Programación Orientada a Objetos  
@@ -788,6 +789,6 @@ Antes de entregar, verifica:
 
 ---
 
-**Tiempo de inicio:** __:__  
-**Tiempo de finalización:** __:__  
-**Tiempo total utilizado:** ______ horas ______ minutos
+**Tiempo de inicio:** 10:00  
+**Tiempo de finalización:** 19:30  
+**Tiempo total utilizado:**  7 horas 30 minutos

@@ -1,0 +1,10 @@
+9780134685991|Effective Python|Brett Slatkin|2019|Programación|5
+9780135404676|Python Crash Course|Eric Matthes|2019|Programación|3
+9781449355739|Fluent Python|Luciano Ramalho|2015|Programación|2
+9781491957660|Python Data Science Handbook|Jake VanderPlas|2016|Ciencia de Datos|4
+9781593279288|Automate the Boring Stuff|Al Sweigart|2019|Programación|6
+9781492071267|Designing Data-Intensive Applications|Martin Kleppmann|2017|Arquitectura|3
+9780132350884|Clean Code|Robert C. Martin|2008|Ingeniería|5
+9780201616224|The Pragmatic Programmer|Andrew Hunt|1999|Ingeniería|4
+9780134494166|Refactoring|Martin Fowler|2018|Ingeniería|2
+9780262033848|Introduction to Algorithms|Cormen et al.|2009|Algoritmos|3
